@@ -1,0 +1,188 @@
+[
+  {
+    "timestamp": "2026-01-06T21:33:51.220829",
+    "wind_speed": 5.1,
+    "rpm": 0.0,
+    "lift_force": 0.0
+  },
+  {
+    "timestamp": "2026-01-06T21:33:51.723551",
+    "wind_speed": 5.1,
+    "rpm": 225.0,
+    "lift_force": 0.2046
+  },
+  {
+    "timestamp": "2026-01-06T21:33:52.224277",
+    "wind_speed": 5.1,
+    "rpm": 0.0,
+    "lift_force": 0.0
+  },
+  {
+    "timestamp": "2026-01-06T21:33:52.725060",
+    "wind_speed": 5.1,
+    "rpm": 195.0,
+    "lift_force": 0.2048
+  },
+  {
+    "timestamp": "2026-01-06T21:33:53.225305",
+    "wind_speed": 5.1,
+    "rpm": 0.0,
+    "lift_force": 0.0
+  },
+  {
+    "timestamp": "2026-01-06T21:33:53.726340",
+    "wind_speed": 5.1,
+    "rpm": 165.0,
+    "lift_force": 0.2048
+  },
+  {
+    "timestamp": "2026-01-06T21:33:54.226101",
+    "wind_speed": 5.1,
+    "rpm": 0.0,
+    "lift_force": 0.0
+  },
+  {
+    "timestamp": "2026-01-06T21:33:54.726633",
+    "wind_speed": 5.1,
+    "rpm": 210.0,
+    "lift_force": 0.2047
+  },
+  {
+    "timestamp": "2026-01-06T21:33:55.228180",
+    "wind_speed": 5.1,
+    "rpm": 0.0,
+    "lift_force": 0.0
+  },
+  {
+    "timestamp": "2026-01-06T21:33:55.728333",
+    "wind_speed": 5.1,
+    "rpm": 195.0,
+    "lift_force": 0.2048
+  },
+  {
+    "timestamp": "2026-01-06T21:33:56.229983",
+    "wind_speed": 5.1,
+    "rpm": 0.0,
+    "lift_force": 0.0
+  },
+  {
+    "timestamp": "2026-01-06T21:33:56.730806",
+    "wind_speed": 5.1,
+    "rpm": 225.0,
+    "lift_force": 0.2048
+  },
+  {
+    "timestamp": "2026-01-06T21:33:57.231328",
+    "wind_speed": 5.1,
+    "rpm": 0.0,
+    "lift_force": 0.0
+  },
+  {
+    "timestamp": "2026-01-06T21:33:57.731372",
+    "wind_speed": 5.1,
+    "rpm": 210.0,
+    "lift_force": 0.2047
+  },
+  {
+    "timestamp": "2026-01-06T21:33:58.231642",
+    "wind_speed": 5.1,
+    "rpm": 0.0,
+    "lift_force": 0.0
+  },
+  {
+    "timestamp": "2026-01-06T21:33:58.732673",
+    "wind_speed": 5.1,
+    "rpm": 210.0,
+    "lift_force": 0.2047
+  },
+  {
+    "timestamp": "2026-01-06T21:33:59.233096",
+    "wind_speed": 5.1,
+    "rpm": 0.0,
+    "lift_force": 0.0
+  },
+  {
+    "timestamp": "2026-01-06T21:33:59.733061",
+    "wind_speed": 5.1,
+    "rpm": 210.0,
+    "lift_force": 0.2047
+  },
+  {
+    "timestamp": "2026-01-06T21:34:00.232924",
+    "wind_speed": 5.1,
+    "rpm": 0.0,
+    "lift_force": 0.0
+  },
+  {
+    "timestamp": "2026-01-06T21:34:00.733621",
+    "wind_speed": 5.1,
+    "rpm": 90.0,
+    "lift_force": 0.2047
+  },
+  {
+    "timestamp": "2026-01-06T21:34:01.234110",
+    "wind_speed": 5.1,
+    "rpm": 0.0,
+    "lift_force": 0.0
+  },
+  {
+    "timestamp": "2026-01-06T21:34:01.734867",
+    "wind_speed": 5.1,
+    "rpm": 165.0,
+    "lift_force": 0.2047
+  },
+  {
+    "timestamp": "2026-01-06T21:34:02.236022",
+    "wind_speed": 5.1,
+    "rpm": 0.0,
+    "lift_force": 0.0
+  },
+  {
+    "timestamp": "2026-01-06T21:34:02.737119",
+    "wind_speed": 5.1,
+    "rpm": 285.0,
+    "lift_force": 0.2047
+  },
+  {
+    "timestamp": "2026-01-06T21:34:03.238183",
+    "wind_speed": 5.1,
+    "rpm": 0.0,
+    "lift_force": 0.0
+  },
+  {
+    "timestamp": "2026-01-06T21:34:03.739213",
+    "wind_speed": 5.1,
+    "rpm": 255.0,
+    "lift_force": 0.2047
+  },
+  {
+    "timestamp": "2026-01-06T21:34:04.239635",
+    "wind_speed": 5.1,
+    "rpm": 0.0,
+    "lift_force": 0.0
+  },
+  {
+    "timestamp": "2026-01-06T21:34:04.741735",
+    "wind_speed": 5.1,
+    "rpm": 270.0,
+    "lift_force": 0.2047
+  },
+  {
+    "timestamp": "2026-01-06T21:34:05.243121",
+    "wind_speed": 5.1,
+    "rpm": 0.0,
+    "lift_force": 0.0
+  },
+  {
+    "timestamp": "2026-01-06T21:34:05.743938",
+    "wind_speed": 5.1,
+    "rpm": 210.0,
+    "lift_force": 0.2049
+  },
+  {
+    "timestamp": "2026-01-06T21:34:06.246555",
+    "wind_speed": 5.1,
+    "rpm": 0.0,
+    "lift_force": 0.0
+  }
+]

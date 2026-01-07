@@ -113,7 +113,8 @@ class ArduinoAdapter(SensorPort):
                         is_valid=True
                     )
             
-            return ArduinoReading(rpm=0, lift_force=0, is_valid=True)
+            
+            return None
             
         except json.JSONDecodeError as e:
             logger.warning(f"Invalid JSON from Arduino: {e}")
