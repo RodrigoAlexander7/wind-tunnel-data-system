@@ -1,62 +1,872 @@
 [
   {
-    "timestamp": "2026-01-06T22:20:30.157296",
-    "wind_speed": 8.5,
+    "timestamp": "2026-01-07T17:01:09.740431",
+    "wind_speed": 0.0,
     "rpm": 0.0,
-    "lift_force": 0.205
+    "lift_force": -0.0
   },
   {
-    "timestamp": "2026-01-06T22:20:31.160327",
-    "wind_speed": 8.5,
+    "timestamp": "2026-01-07T17:01:10.742032",
+    "wind_speed": 0.0,
     "rpm": 0.0,
-    "lift_force": 0.205
+    "lift_force": 0.0
   },
   {
-    "timestamp": "2026-01-06T22:20:32.160748",
-    "wind_speed": 8.5,
+    "timestamp": "2026-01-07T17:01:11.745651",
+    "wind_speed": 0.0,
     "rpm": 0.0,
-    "lift_force": 0.205
+    "lift_force": -0.0001
   },
   {
-    "timestamp": "2026-01-06T22:20:33.163584",
-    "wind_speed": 8.5,
-    "rpm": 150.0,
-    "lift_force": 0.21
+    "timestamp": "2026-01-07T17:01:12.747252",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": -0.0002
   },
   {
-    "timestamp": "2026-01-06T22:20:34.166800",
-    "wind_speed": 8.5,
-    "rpm": 165.0,
-    "lift_force": 0.2083
+    "timestamp": "2026-01-07T17:01:13.749761",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": -0.0002
   },
   {
-    "timestamp": "2026-01-06T22:20:35.168785",
-    "wind_speed": 8.5,
-    "rpm": 75.0,
-    "lift_force": 0.2083
+    "timestamp": "2026-01-07T17:01:14.751719",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": -0.0003
   },
   {
-    "timestamp": "2026-01-06T22:20:36.170604",
-    "wind_speed": 8.5,
-    "rpm": 60.0,
-    "lift_force": 0.2049
+    "timestamp": "2026-01-07T17:01:15.753024",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": -0.0002
   },
   {
-    "timestamp": "2026-01-06T22:20:37.173078",
-    "wind_speed": 8.5,
-    "rpm": 90.0,
-    "lift_force": 0.2077
+    "timestamp": "2026-01-07T17:01:16.754105",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": -0.0001
   },
   {
-    "timestamp": "2026-01-06T22:20:38.174134",
-    "wind_speed": 8.5,
-    "rpm": 45.0,
-    "lift_force": 0.2078
+    "timestamp": "2026-01-07T17:01:17.754810",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": -0.0001
   },
   {
-    "timestamp": "2026-01-06T22:20:39.174588",
-    "wind_speed": 8.5,
-    "rpm": 45.0,
-    "lift_force": 0.2082
+    "timestamp": "2026-01-07T17:01:18.755878",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": -0.0001
+  },
+  {
+    "timestamp": "2026-01-07T17:01:19.758021",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": -0.0001
+  },
+  {
+    "timestamp": "2026-01-07T17:01:20.759332",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": -0.0002
+  },
+  {
+    "timestamp": "2026-01-07T17:01:21.759392",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0542
+  },
+  {
+    "timestamp": "2026-01-07T17:01:22.760353",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0607
+  },
+  {
+    "timestamp": "2026-01-07T17:01:23.760344",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0561
+  },
+  {
+    "timestamp": "2026-01-07T17:01:24.761444",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0539
+  },
+  {
+    "timestamp": "2026-01-07T17:01:25.763489",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0577
+  },
+  {
+    "timestamp": "2026-01-07T17:01:26.764419",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0536
+  },
+  {
+    "timestamp": "2026-01-07T17:01:27.764637",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0632
+  },
+  {
+    "timestamp": "2026-01-07T17:01:28.766135",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.061
+  },
+  {
+    "timestamp": "2026-01-07T17:01:29.768896",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0634
+  },
+  {
+    "timestamp": "2026-01-07T17:01:30.770025",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0649
+  },
+  {
+    "timestamp": "2026-01-07T17:01:31.771578",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0625
+  },
+  {
+    "timestamp": "2026-01-07T17:01:32.772511",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0637
+  },
+  {
+    "timestamp": "2026-01-07T17:01:33.773882",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0667
+  },
+  {
+    "timestamp": "2026-01-07T17:01:34.775407",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0637
+  },
+  {
+    "timestamp": "2026-01-07T17:01:35.776511",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0622
+  },
+  {
+    "timestamp": "2026-01-07T17:01:36.778625",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0654
+  },
+  {
+    "timestamp": "2026-01-07T17:01:37.779899",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0665
+  },
+  {
+    "timestamp": "2026-01-07T17:01:38.780625",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0641
+  },
+  {
+    "timestamp": "2026-01-07T17:01:39.782682",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0623
+  },
+  {
+    "timestamp": "2026-01-07T17:01:40.784275",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0664
+  },
+  {
+    "timestamp": "2026-01-07T17:01:41.784622",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0633
+  },
+  {
+    "timestamp": "2026-01-07T17:01:42.786372",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0685
+  },
+  {
+    "timestamp": "2026-01-07T17:01:43.786871",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0678
+  },
+  {
+    "timestamp": "2026-01-07T17:01:44.787357",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0686
+  },
+  {
+    "timestamp": "2026-01-07T17:01:45.788004",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0708
+  },
+  {
+    "timestamp": "2026-01-07T17:01:46.790027",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0686
+  },
+  {
+    "timestamp": "2026-01-07T17:01:47.791093",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0717
+  },
+  {
+    "timestamp": "2026-01-07T17:01:48.792666",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0744
+  },
+  {
+    "timestamp": "2026-01-07T17:01:49.795455",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0648
+  },
+  {
+    "timestamp": "2026-01-07T17:01:50.796140",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0716
+  },
+  {
+    "timestamp": "2026-01-07T17:01:51.797329",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0715
+  },
+  {
+    "timestamp": "2026-01-07T17:01:52.798248",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0697
+  },
+  {
+    "timestamp": "2026-01-07T17:01:53.799633",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0718
+  },
+  {
+    "timestamp": "2026-01-07T17:01:54.801204",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0705
+  },
+  {
+    "timestamp": "2026-01-07T17:01:55.802736",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0719
+  },
+  {
+    "timestamp": "2026-01-07T17:01:56.803813",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0746
+  },
+  {
+    "timestamp": "2026-01-07T17:01:57.805086",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0758
+  },
+  {
+    "timestamp": "2026-01-07T17:01:58.806325",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0723
+  },
+  {
+    "timestamp": "2026-01-07T17:01:59.807555",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0708
+  },
+  {
+    "timestamp": "2026-01-07T17:02:00.807809",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0753
+  },
+  {
+    "timestamp": "2026-01-07T17:02:01.810209",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0775
+  },
+  {
+    "timestamp": "2026-01-07T17:02:02.810441",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0739
+  },
+  {
+    "timestamp": "2026-01-07T17:02:03.811576",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0768
+  },
+  {
+    "timestamp": "2026-01-07T17:02:04.812559",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0748
+  },
+  {
+    "timestamp": "2026-01-07T17:02:05.815141",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0764
+  },
+  {
+    "timestamp": "2026-01-07T17:02:06.815558",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0765
+  },
+  {
+    "timestamp": "2026-01-07T17:02:07.817839",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0743
+  },
+  {
+    "timestamp": "2026-01-07T17:02:08.818810",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0784
+  },
+  {
+    "timestamp": "2026-01-07T17:02:09.821104",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.078
+  },
+  {
+    "timestamp": "2026-01-07T17:02:10.821517",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0829
+  },
+  {
+    "timestamp": "2026-01-07T17:02:11.822158",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0793
+  },
+  {
+    "timestamp": "2026-01-07T17:02:12.823659",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0824
+  },
+  {
+    "timestamp": "2026-01-07T17:02:13.824606",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0807
+  },
+  {
+    "timestamp": "2026-01-07T17:02:14.825943",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0817
+  },
+  {
+    "timestamp": "2026-01-07T17:02:15.826395",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0816
+  },
+  {
+    "timestamp": "2026-01-07T17:02:16.828179",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0835
+  },
+  {
+    "timestamp": "2026-01-07T17:02:17.829037",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0841
+  },
+  {
+    "timestamp": "2026-01-07T17:02:18.830377",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0843
+  },
+  {
+    "timestamp": "2026-01-07T17:02:19.833006",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0855
+  },
+  {
+    "timestamp": "2026-01-07T17:02:20.834091",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0887
+  },
+  {
+    "timestamp": "2026-01-07T17:02:21.836180",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0883
+  },
+  {
+    "timestamp": "2026-01-07T17:02:22.837466",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.088
+  },
+  {
+    "timestamp": "2026-01-07T17:02:23.837639",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0871
+  },
+  {
+    "timestamp": "2026-01-07T17:02:24.837935",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0887
+  },
+  {
+    "timestamp": "2026-01-07T17:02:25.839663",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0924
+  },
+  {
+    "timestamp": "2026-01-07T17:02:26.841039",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0937
+  },
+  {
+    "timestamp": "2026-01-07T17:02:27.841464",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0942
+  },
+  {
+    "timestamp": "2026-01-07T17:02:28.844694",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0956
+  },
+  {
+    "timestamp": "2026-01-07T17:02:29.846685",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0968
+  },
+  {
+    "timestamp": "2026-01-07T17:02:30.847941",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0964
+  },
+  {
+    "timestamp": "2026-01-07T17:02:31.848707",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0987
+  },
+  {
+    "timestamp": "2026-01-07T17:02:32.850448",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.1041
+  },
+  {
+    "timestamp": "2026-01-07T17:02:33.852018",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.1039
+  },
+  {
+    "timestamp": "2026-01-07T17:02:34.852888",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.1047
+  },
+  {
+    "timestamp": "2026-01-07T17:02:35.853576",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.1101
+  },
+  {
+    "timestamp": "2026-01-07T17:02:36.854560",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.112
+  },
+  {
+    "timestamp": "2026-01-07T17:02:37.855577",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.1164
+  },
+  {
+    "timestamp": "2026-01-07T17:02:38.855593",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.1195
+  },
+  {
+    "timestamp": "2026-01-07T17:02:39.859435",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.1247
+  },
+  {
+    "timestamp": "2026-01-07T17:02:40.860445",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.1288
+  },
+  {
+    "timestamp": "2026-01-07T17:02:41.861097",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.1385
+  },
+  {
+    "timestamp": "2026-01-07T17:02:42.862123",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.1447
+  },
+  {
+    "timestamp": "2026-01-07T17:02:43.864052",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.1537
+  },
+  {
+    "timestamp": "2026-01-07T17:02:44.864489",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.1612
+  },
+  {
+    "timestamp": "2026-01-07T17:02:45.866266",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.1752
+  },
+  {
+    "timestamp": "2026-01-07T17:02:46.867047",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.1894
+  },
+  {
+    "timestamp": "2026-01-07T17:02:47.868418",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.1973
+  },
+  {
+    "timestamp": "2026-01-07T17:02:48.869829",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.2207
+  },
+  {
+    "timestamp": "2026-01-07T17:02:49.871537",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.2307
+  },
+  {
+    "timestamp": "2026-01-07T17:02:50.872462",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": -0.0426
+  },
+  {
+    "timestamp": "2026-01-07T17:02:51.873988",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": -1.9924
+  },
+  {
+    "timestamp": "2026-01-07T17:02:52.875665",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": -1.9797
+  },
+  {
+    "timestamp": "2026-01-07T17:02:53.875195",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": -1.7559
+  },
+  {
+    "timestamp": "2026-01-07T17:02:54.876222",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": -1.3095
+  },
+  {
+    "timestamp": "2026-01-07T17:02:55.876661",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": -0.133
+  },
+  {
+    "timestamp": "2026-01-07T17:02:56.877230",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": -1.2468
+  },
+  {
+    "timestamp": "2026-01-07T17:02:57.877400",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": -1.0322
+  },
+  {
+    "timestamp": "2026-01-07T17:02:58.879736",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": -0.134
+  },
+  {
+    "timestamp": "2026-01-07T17:02:59.882048",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": -0.1533
+  },
+  {
+    "timestamp": "2026-01-07T17:03:00.883781",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0004
+  },
+  {
+    "timestamp": "2026-01-07T17:03:01.884762",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0011
+  },
+  {
+    "timestamp": "2026-01-07T17:03:02.886718",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0009
+  },
+  {
+    "timestamp": "2026-01-07T17:03:03.888357",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.001
+  },
+  {
+    "timestamp": "2026-01-07T17:03:04.889196",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0013
+  },
+  {
+    "timestamp": "2026-01-07T17:03:05.891697",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0014
+  },
+  {
+    "timestamp": "2026-01-07T17:03:06.893214",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.001
+  },
+  {
+    "timestamp": "2026-01-07T17:03:07.893573",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0009
+  },
+  {
+    "timestamp": "2026-01-07T17:03:08.894608",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0011
+  },
+  {
+    "timestamp": "2026-01-07T17:03:09.896420",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0016
+  },
+  {
+    "timestamp": "2026-01-07T17:03:10.897223",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0014
+  },
+  {
+    "timestamp": "2026-01-07T17:03:11.898247",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.001
+  },
+  {
+    "timestamp": "2026-01-07T17:03:12.898660",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0011
+  },
+  {
+    "timestamp": "2026-01-07T17:03:13.900339",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": 0.0006
+  },
+  {
+    "timestamp": "2026-01-07T17:03:14.901392",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": -0.001
+  },
+  {
+    "timestamp": "2026-01-07T17:03:15.901964",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": -0.0822
+  },
+  {
+    "timestamp": "2026-01-07T17:03:16.903519",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": -0.1478
+  },
+  {
+    "timestamp": "2026-01-07T17:03:17.903405",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": -0.0287
+  },
+  {
+    "timestamp": "2026-01-07T17:03:18.905465",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": -0.0764
+  },
+  {
+    "timestamp": "2026-01-07T17:03:19.908425",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": -0.2099
+  },
+  {
+    "timestamp": "2026-01-07T17:03:20.909087",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": -0.6299
+  },
+  {
+    "timestamp": "2026-01-07T17:03:21.909768",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": -0.4186
+  },
+  {
+    "timestamp": "2026-01-07T17:03:22.910932",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": -0.0002
+  },
+  {
+    "timestamp": "2026-01-07T17:03:23.912218",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": -0.0002
+  },
+  {
+    "timestamp": "2026-01-07T17:03:24.913030",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": -0.0003
+  },
+  {
+    "timestamp": "2026-01-07T17:03:25.913579",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": -0.0002
+  },
+  {
+    "timestamp": "2026-01-07T17:03:26.913559",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": -0.0004
+  },
+  {
+    "timestamp": "2026-01-07T17:03:27.914161",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": -0.0004
+  },
+  {
+    "timestamp": "2026-01-07T17:03:28.915428",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": -0.0003
+  },
+  {
+    "timestamp": "2026-01-07T17:03:29.921384",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": -0.0004
+  },
+  {
+    "timestamp": "2026-01-07T17:03:30.923215",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": -0.0002
+  },
+  {
+    "timestamp": "2026-01-07T17:03:31.924092",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": -0.0002
+  },
+  {
+    "timestamp": "2026-01-07T17:03:32.925184",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": -0.0004
+  },
+  {
+    "timestamp": "2026-01-07T17:03:33.925572",
+    "wind_speed": 0.0,
+    "rpm": 0.0,
+    "lift_force": -0.0002
   }
 ]
