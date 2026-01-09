@@ -14,3 +14,7 @@ aiofiles
 
 # WebSocket support (included in uvicorn[standard])
 websockets
+
+pandas
+
+matplotlib
