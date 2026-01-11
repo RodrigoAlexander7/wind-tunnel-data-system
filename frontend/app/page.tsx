@@ -5,19 +5,18 @@
 'use client';
 
 import React from 'react';
-import { 
-  ChartModule, 
-  WindSpeedControl, 
-  StatusPanel, 
+import {
+  ChartModule,
+  StatusPanel,
   CurrentReadings,
-  CustomChart 
+  CustomChart
 } from '@/components';
 import { useWindTunnelStore } from '@/lib/store';
 import { useWebSocket } from '@/lib/useWebSocket';
 
 export default function Dashboard() {
   const { readings } = useWindTunnelStore();
-  
+
   // Initialize WebSocket connection
   useWebSocket();
 
@@ -37,38 +36,13 @@ export default function Dashboard() {
         {/* Left Column - Controls and Status */}
         <div className="col-span-12 lg:col-span-3 space-y-6">
           <StatusPanel />
-          <WindSpeedControl />
+
           <CurrentReadings />
         </div>
 
         {/* Right Column - Charts */}
         <div className="col-span-12 lg:col-span-9 space-y-6">
-          {/* Main Charts Row */}
-          <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">
-            {/* Lift vs Wind Speed */}
-            <ChartModule
-              data={readings}
-              xKey="wind_speed"
-              yKey="lift_force"
-              title="📈 Sustentación vs Velocidad de Viento"
-              xLabel="Velocidad (m/s)"
-              yLabel="Fuerza (N)"
-              color="#8b5cf6"
-              isScatter={true}
-            />
 
-            {/* RPM vs Wind Speed */}
-            <ChartModule
-              data={readings}
-              xKey="wind_speed"
-              yKey="rpm"
-              title="⚡ RPM vs Velocidad de Viento"
-              xLabel="Velocidad (m/s)"
-              yLabel="RPM"
-              color="#10b981"
-              isScatter={true}
-            />
-          </div>
 
           {/* Time Series Charts */}
           <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">

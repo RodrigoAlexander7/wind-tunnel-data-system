@@ -8,24 +8,23 @@ import { config } from './config';
 interface WindTunnelState {
   // Connection state
   connectionStatus: ConnectionStatus;
-  
+
   // System status from backend
   systemStatus: SystemStatus | null;
-  
+
   // Readings data for charts
   readings: SystemReading[];
-  
-  // Current wind speed input value
-  windSpeedInput: number;
-  
+
+
+
   // Recording state
   isRecording: boolean;
-  
+
   // Actions
   setConnectionStatus: (status: ConnectionStatus) => void;
   setSystemStatus: (status: SystemStatus) => void;
   addReading: (reading: SystemReading) => void;
-  setWindSpeedInput: (speed: number) => void;
+
   setRecording: (recording: boolean) => void;
   clearReadings: () => void;
 }
@@ -35,18 +34,17 @@ export const useWindTunnelStore = create<WindTunnelState>((set) => ({
   connectionStatus: 'disconnected',
   systemStatus: null,
   readings: [],
-  windSpeedInput: 0,
+
   isRecording: false,
-  
+
   // Actions
   setConnectionStatus: (status) => set({ connectionStatus: status }),
-  
-  setSystemStatus: (status) => set({ 
+
+  setSystemStatus: (status) => set({
     systemStatus: status,
     isRecording: status.is_recording,
-    windSpeedInput: status.current_wind_speed,
   }),
-  
+
   addReading: (reading) => set((state) => {
     // Keep only the last N readings for performance
     const newReadings = [...state.readings, reading];
@@ -55,10 +53,10 @@ export const useWindTunnelStore = create<WindTunnelState>((set) => ({
     }
     return { readings: newReadings };
   }),
-  
-  setWindSpeedInput: (speed) => set({ windSpeedInput: speed }),
-  
+
+
+
   setRecording: (recording) => set({ isRecording: recording }),
-  
+
   clearReadings: () => set({ readings: [] }),
 }));

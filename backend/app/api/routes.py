@@ -1,12 +1,14 @@
 """
 REST API endpoints for system control and data retrieval.
 """
+
 import logging
 from typing import List
 
 from fastapi import APIRouter, HTTPException
 
-from app.core.models import SystemReading, SystemStatus, WindSpeedCommand
+
+from app.core.models import SystemReading, SystemStatus
 
 logger = logging.getLogger(__name__)
 
@@ -19,6 +21,7 @@ async def get_status():
     Get current system status.
     """
     from app.main import measurement_manager
+
     return measurement_manager.get_status()
 
 
@@ -28,17 +31,8 @@ async def get_readings(limit: int = 100):
     Get recent readings from storage.
     """
     from app.main import measurement_manager
+
     return await measurement_manager.get_recent_readings(limit)
-
-
-@router.post("/wind-speed")
-async def set_wind_speed(command: WindSpeedCommand):
-    """
-    Set the current wind speed (alternative to WebSocket).
-    """
-    from app.main import measurement_manager
-    await measurement_manager.set_wind_speed(command.wind_speed)
-    return {"status": "ok", "wind_speed": command.wind_speed}
 
 
 @router.post("/recording/start")
@@ -47,6 +41,7 @@ async def start_recording():
     Start recording data to file.
     """
     from app.main import measurement_manager
+
     await measurement_manager.start_recording()
     return {"status": "recording_started"}
 
@@ -57,6 +52,7 @@ async def stop_recording():
     Stop recording data.
     """
     from app.main import measurement_manager
+
     await measurement_manager.stop_recording()
     return {"status": "recording_stopped"}
 
@@ -67,6 +63,7 @@ async def clear_readings():
     Clear all stored readings.
     """
     from app.main import measurement_manager
+
     success = await measurement_manager.clear_readings()
     if success:
         return {"status": "cleared"}
@@ -79,9 +76,10 @@ async def health_check():
     Health check endpoint.
     """
     from app.main import measurement_manager
+
     status = measurement_manager.get_status()
     return {
         "status": "healthy",
         "arduino_connected": status.arduino_connected,
-        "websocket_clients": status.websocket_clients
+        "websocket_clients": status.websocket_clients,
     }

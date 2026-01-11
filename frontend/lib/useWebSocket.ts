@@ -109,9 +109,7 @@ export function useWebSocket() {
     }
   }, []);
 
-  const setWindSpeed = useCallback((speed: number) => {
-    sendMessage({ type: 'wind_speed', value: speed });
-  }, [sendMessage]);
+
 
   const startRecording = useCallback(() => {
     sendMessage({ type: 'command', action: 'start_recording' });
@@ -142,7 +140,7 @@ export function useWebSocket() {
     connectionStatus,
     connect,
     disconnect,
-    setWindSpeed,
+
     startRecording,
     stopRecording,
     clearReadings,

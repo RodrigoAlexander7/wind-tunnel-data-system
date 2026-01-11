@@ -8,7 +8,6 @@ import { ChartModule } from './ChartModule';
 import { useWindTunnelStore } from '@/lib/store';
 
 const AXIS_OPTIONS = [
-  { value: 'wind_speed', label: 'Velocidad de Viento (m/s)' },
   { value: 'rpm', label: 'RPM' },
   { value: 'lift_force', label: 'Sustentación (N)' },
   { value: 'timestamp', label: 'Tiempo' },
@@ -16,7 +15,7 @@ const AXIS_OPTIONS = [
 
 export function CustomChart() {
   const { readings } = useWindTunnelStore();
-  const [xAxis, setXAxis] = useState('wind_speed');
+  const [xAxis, setXAxis] = useState('timestamp');
   const [yAxis, setYAxis] = useState('lift_force');
 
   const xLabel = AXIS_OPTIONS.find(o => o.value === xAxis)?.label || xAxis;
@@ -46,7 +45,7 @@ export function CustomChart() {
         <h3 className="text-lg font-semibold text-zinc-900 dark:text-zinc-100">
           Gráfica Personalizada
         </h3>
-        
+
         <div className="flex items-center gap-4">
           {/* X Axis Selector */}
           <div className="flex items-center gap-2">
@@ -64,7 +63,7 @@ export function CustomChart() {
               ))}
             </select>
           </div>
-          
+
           {/* Y Axis Selector */}
           <div className="flex items-center gap-2">
             <label className="text-sm text-zinc-600 dark:text-zinc-400">Eje Y:</label>
@@ -83,7 +82,7 @@ export function CustomChart() {
           </div>
         </div>
       </div>
-      
+
       <ChartModule
         data={sortedData}
         xKey={xAxis}

@@ -4,7 +4,6 @@
 
 export interface SystemReading {
   timestamp: string;
-  wind_speed: number;
   rpm: number;
   lift_force: number;
   [key: string]: string | number; // Index signature for chart compatibility
@@ -13,7 +12,6 @@ export interface SystemReading {
 export interface SystemStatus {
   arduino_connected: boolean;
   websocket_clients: number;
-  current_wind_speed: number;
   is_recording: boolean;
   readings_count: number;
 }

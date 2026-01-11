@@ -19,7 +19,7 @@ logger = logging.getLogger(__name__)
 DATA_DIR = Path("data")
 DATA_FILE = DATA_DIR / "readings.jsonl"
 PORT = "COM3"
-BAUDRATE = 9600
+BAUDRATE = 115200
 TIMEOUT = 1.0
 
 
